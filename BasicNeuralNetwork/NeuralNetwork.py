@@ -1,10 +1,14 @@
+# Basic 3 Layer Feed Forward Neural Network with Back Propagation from Scratch
+
 import numpy as np
 from scipy import optimize
 import matplotlib.pyplot as plt
 
+# Sample Input Data
 x = np.array(([3,5],[5,1],[10,2]), dtype=float)
 y = np.array(([75],[82],[93]),dtype=float)
 
+# Normalizing the Data
 X = x / np.amax(x,axis=0)
 y = y / 100
 
@@ -20,7 +24,7 @@ class NeuralNetwork(object):
         # W(1): All weights from Input layer to Hidden Layer
         # W(2): All weights from Hidden Layer to Output Layer
 
-        # np.random.rand(x,y,...): Returns random values in a given shape
+        # np.random.randn(x,y,...): Returns random values in a given shape
         # Returns a matrix of form 2x4
         # Values in 1st row: W11, W12, W13, W14;  => W(1)
         # Values in second row: W21, W22, W23, W24;  => W(1)
@@ -72,7 +76,7 @@ class NeuralNetwork(object):
         return J
 
 
-    # Calculation of BackPropagation of error
+    # Calculation of BackPropagation error
     # This helps to update the weights and tune them to reducse cost function
     def costFunctionPrime(self, X, y):
         self.y_Hat = self.forward(X)
@@ -178,40 +182,42 @@ class trainer(object):
 
 # -------------------- Testing the Neural Network --------------------------
 nn = NeuralNetwork()
-# y_Hat = nn.forward(X)
-# print('Estimated Values (y_Hat): \n',y_Hat)
-# print('\n Actual Values (y): \n',y)
+y_Hat = nn.forward(X)
+print('Estimated Values (y_Hat): \n',y_Hat)
+print('\n Actual Values (y): \n',y)
 
 # Cost Function without Back Propagation
-# J = nn.costFunction(X,y)
-# print('Cost1 Function J: \n', J)
+J = nn.costFunction(X,y)
+print('Cost1 Function J: \n', J)
 
 # Back propagated derivatives of cost function
-# dJdW1, dJdW2 = nn.costFunctionPrime(X,y)
-# print('dJdW1: \n',dJdW1)
-# print('\ndJdW2: ',dJdW2)
+dJdW1, dJdW2 = nn.costFunctionPrime(X,y)
+print('dJdW1: \n',dJdW1)
+print('\ndJdW2: ',dJdW2)
 
 # Adding the derivatives to the Initial weights (tuning weights)
-# scalar = 3
-# nn.W1 = nn.W1 + scalar*dJdW1
-# nn.W2 = nn.W2 + scalar*dJdW2
-# cost2 = nn.costFunction(X,y)
-# print('cost2: \n', cost2)
+# Use only if the dJ/dW is -ve.
+scalar = 3
+nn.W1 = nn.W1 + scalar*dJdW1
+nn.W2 = nn.W2 + scalar*dJdW2
+cost2 = nn.costFunction(X,y)
+print('cost2: \n', cost2)
 
 
 # Subtracting scalar times the Back Propagated loss to tune weights
-# nn.W1 = nn.W1 - scalar*dJdW1
-# nn.W2 = nn.W2 - scalar*dJdW2
-# cost3 = nn.costFunction(X,y)
-# print('cost3: \n', cost3)
+# Use only if the dJ/dW is +ve.
+nn.W1 = nn.W1 - scalar*dJdW1
+nn.W2 = nn.W2 - scalar*dJdW2
+cost3 = nn.costFunction(X,y)
+print('cost3: \n', cost3)
 
 
 # Checking for the Accuracy of Numerical Gradient
-# grad = nn.computeGradients(X,y)
-# print('Original Gradient: \n',grad)
-#
-# num_grad = computeNumericalGradient(nn,X,y)
-# print('Numerical Gradient: \n', num_grad)
+grad = nn.computeGradients(X,y)
+print('Original Gradient: \n',grad)
+
+num_grad = computeNumericalGradient(nn,X,y)
+print('Numerical Gradient: \n', num_grad)
 
 
 # Training the NN
@@ -236,9 +242,4 @@ predicted_val = nn.forward(X)
 print('Predicted Values: \n',predicted_val)
 print('\n')
 
-
-
-
-
-
-
+# ----------------------------------- EOC ----------------------------------
