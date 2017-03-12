@@ -1,5 +1,5 @@
 # Generative Adversarial Networks
-This repository contains the code for Generative Adversarial Network using Python 3 and Tensorflow.
+***This repository contains the code for Generative Adversarial Network for 1-D Input sample using Python 3 and Tensorflow.***
 
 # Resources:
 1. Ian Goodfellow's Paper on "Generative Adversarial Networks" [https://arxiv.org/abs/1406.2661] (https://arxiv.org/abs/1406.2661)
