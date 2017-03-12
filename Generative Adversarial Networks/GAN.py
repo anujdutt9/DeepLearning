@@ -13,10 +13,8 @@ mu, sigma = -1,1
 xs=np.linspace(-5,5,1000)
 # plt.plot(xs, norm.pdf(xs,loc=mu,scale=sigma))
 
-
 numTrainIters = 10000
 M = 200
-
 
 # ------------------------------ Multi Layer Perceptron -------------------------
 # MultiLayer Perceptron Layers Weights and Bias Value Initialization
