@@ -6,6 +6,10 @@ All code is written in Python 3 using PyCharm IDE.
 # Requirements
 1. **Tensorflow**
 2. **Keras**
+3. **Numpy**
+4. **Scipy**
+
+**Update:** ***Code tested on Windows 64-bit, Ubuntu 16.04 and Google Cloud Server Instance (Ubuntu 16.04, 7.50GB RAM)***
 
 # Resources
 
