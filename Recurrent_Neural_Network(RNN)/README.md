@@ -1,16 +1,15 @@
-# Generative Adversarial Networks
-***This repository contains the code for Generative Adversarial Network for 1-D Input sample using Python 3 and Tensorflow.***
+# Recurrent Neural Networks
+***This repository contains the code for Recurrent Neural Network from scratch using Python 3 and numpy.***
 
 # Requirements
-1. **Tensorflow**
-2. **Numpy**
-3. **Scipy**
+**Numpy**
+
 
 # Resources
 
 | S.No.  |                       Papers / Blogs / Authors            |                        Paper Links                   |
 | ------ | --------------------------------------------------------- | ---------------------------------------------------- |
-|1.      |     "Generative Adversarial Networks" by Ian Goodfellow   |              https://arxiv.org/abs/1406.2661         |
-|2.      |     Eric Jang's Blog on Generative Adversarial Networks   | http://blog.evjang.com/2016/06/generative-adversarial-nets-in.html|
-|3.      |     "NIPS 2016 Tutorial: Generative Adversarial Networks" |              https://arxiv.org/abs/1701.00160        |
+|1.      |"A Critical Review of RNN for Sequence Learning" by Zachary C. Lipton|    https://arxiv.org/pdf/1506.00019.pdf    |
+|2.      |                    "i am trask" Blog                      |https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/|
+
 
