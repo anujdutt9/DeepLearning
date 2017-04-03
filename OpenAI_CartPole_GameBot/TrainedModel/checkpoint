@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Hare Krishna\\Desktop\\Sirajology\\OpenAI_CartPole_GameBot\\trained_model.model"
+all_model_checkpoint_paths: "C:\\Users\\Hare Krishna\\Desktop\\Sirajology\\OpenAI_CartPole_GameBot\\trained_model.model"
