@@ -1,6 +1,5 @@
 # OpenAI CartPole Game Bot
 ***This repository contains the code for OpenAI CartPole using Python3, gym and tflearn.***
-All code is written in Python 3 using PyCharm IDE.
 
 # Requirements
 1. **Tensorflow**
