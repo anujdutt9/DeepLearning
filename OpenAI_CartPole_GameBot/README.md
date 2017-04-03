@@ -9,7 +9,7 @@ All code is written in Python 3 using PyCharm IDE.
 4. **OpenAI Gym**
 
 
-# Results
+# Result
 
 ![Output a1](TrainedGameBot.gif?raw=true "Output a1")
 
