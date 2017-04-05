@@ -7,7 +7,7 @@ All code is written in Python 3 using PyCharm IDE.
 
 |S.No.|                  Project Name                  |                  About                       |     Status       |
 | --- | ---------------------------------------------- | -------------------------------------------- | ---------------- |
-|  1. |              Basic Neural Network              | Implementation of a Basic Feed Forward Neural Network using Python, Numpy| Completed|
+|  1. |              Basic Neural Network              | Implementation of a Basic Feed Forward Neural Network using Python and Numpy.| Completed|
 |  2. |        Generative Adversarial Network (GAN)    | Implementation of Ian Goodfellow's Paper on GAN's.| Completed |
 |  3. |             Artistic Style Transfer            | Implementation of Leon A Gaty's paper for Artifying Images.| Completed |
 |  4. |            Recurrent Neural Network            | Implementation of a basic RNN using Python and Numpy.| Completed |
