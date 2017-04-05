@@ -9,6 +9,14 @@ All code is written in Python 3 using PyCharm IDE.
 3. **Numpy**
 4. **Scipy**
 
+
+# Results
+
+* Content Image                                 +                      Style Image            =       Style Transferred Image 
+
+<img src="content_image.png" alt="" width="30%"> <img src="style_image.png" alt="" width="30%"> <img src="StyleTransferredImage.png" alt="" width="30%">
+
+
 **Update:** ***Code tested on Windows 64-bit, Ubuntu 16.04 and Google Cloud Server Instance (Ubuntu 16.04, 7.50GB RAM)***
 
 # Resources
