@@ -1,23 +1,41 @@
-# AI Chatbot
-***This repository contains the code for AI Chatbot using Python3, Keras and Numpy.***
+# N-Armed Bandit
+***This repository contains the code for an N-Armed Bandit predictions using Reinforcement Learning.***
 
 # Requirements
 1. **Tensorflow**
 2. **Numpy**
-3. **Keras**
+3. **Python 3 and above**
 
+
+## Overview
+
+This is the code for the how_to_win_slot_machines challenge by Siraj [here](https://www.youtube.com/watch?v=AIeWLTUYLZQ).
+
+
+# Usage
+```
+python3 main.py
+```
 
 # Result
 
-![Output a1](Output/Output.gif?raw=true "Output a1")
+![Output a1](Images/Output2.png?raw=true "Output a1")
 
+
+
+* Final Predictions
+![Output a1](Images/Output1.png?raw=true "Output a1")
 
 
 # Resources
 
 | S.No.  |                       Papers / Authors                    |                     Paper Links                      |
 | ------ | --------------------------------------------------------- | ---------------------------------------------------- |
-|1.      |Blog post on "Implementing Dynamic Memory Network" by YereveNN | https://yerevann.github.io/2016/02/05/implementing-dynamic-memory-networks/ |
-|2.      | Blog post on "Attention and Memmory in Deep Learning and NLP" by WILDML  | http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/ |
-|3.      |         Keras "babi_memnn" code for Training Network      |  https://github.com/fchollet/keras/blob/master/examples/babi_memnn.py  |
-|4.      | Training Dataset "bAbI-tasks-v1.2" by Facebook AI Research |           https://research.fb.com/downloads/babi/   |
+|1.      |Blog post on "Simple Reinforcement Learning in Tensorflow: Part 1 - Two-armed Bandit" by Arthur Juliani | https://medium.com/@awjuliani/super-simple-reinforcement-learning-tutorial-part-1-fd544fab149 |
+|2.      |  Blog on "Multi-Armed Bandits" by Cameron Davidson-Pilon  | https://dataorigami.net/blogs/napkin-folding/79031811-multi-armed-bandits |
+
+
+# Credits
+
+Credits to [awjuliani](https://github.com/awjuliani) for the base code and Siraj for the challenge idea.
+
