@@ -18,6 +18,16 @@
 ![Output a1](Output.png?raw=true "Output a1")
 
 
+
+* Some generated text samples
+```
+Anyway, to the city scene you’re an idiot teenager.
+What ? ! ! ! ! ignore!
+Screw fitness, you’re saying: https
+Thanks for the advice to keep my thoughts around girls.
+Yep, please disappear with the terrible generation.
+```
+
 # Resources
 
 | S.No.  |                       Papers / Blogs / Authors            |                        Paper Links                   |
