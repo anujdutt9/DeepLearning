@@ -1,16 +1,21 @@
-# OpenAI CartPole Game Bot
-***This repository contains the code for OpenAI CartPole using Python3, gym and tflearn.***
+# RNN Language Model
+***This repository contains the code for Language Model for Text Generation using RNN from scratch using Python and Numpy.***
+
+*This code implements a basic Recurrent Neural Network for a Language Model that predicts the next word in a sentence and forms a final sentence using proper punctuations.
+
+**Note:** Use this code to understand the underlaying concept from scratch that how a Language Model works using a RNN with Back Propagation through Time. Running of this code on the PC/Laptop is not advisable as it might take days or weeks to train and generate the text as the data size is large.
 
 # Requirements
-1. **Tensorflow**
+1. **Python 3 and above**
 2. **Numpy**
-3. **TFlearn**
-4. **OpenAI Gym**
 
 
 # Result
 
-![Output a1](TrainedGameBot.gif?raw=true "Output a1")
+*The following image shows the working of the code. This image shows the running of code on a small data of 1000 words from the main dataset. We can see that the loss decreases with each epoch. This proves that the code works fine and given the time and compute power, it can generate the text.
+
+
+![Output a1](Output.png?raw=true "Output a1")
 
 
 # Resources
