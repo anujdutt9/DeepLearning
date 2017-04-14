@@ -13,4 +13,4 @@ All code is written in Python 3 using PyCharm IDE.
 |  4. |            Recurrent Neural Network            | Implementation of a basic RNN using Python and Numpy.| Completed |
 |  5. |            OpenAI Cart-Pole Game Bot           | Making a Neural Network learn how to play a Cart-Pole game by OpenAI and win it.| Completed |
 |  6. |                  AI Chatbot                    | A chatbot that replies to Questions asked based on the Story/Text it has been Trained on. | Completed |
-|7.   |              RNN Language Model                | A RNN model from scratch to show how Language Modelling is done. This code helps generate the new text with correct punctuations, starting and ending words etc. |
+|7.   |              RNN Language Model                | A RNN model from scratch to show how Language Modelling is done. This code helps generate the new text with correct punctuations, starting and ending words etc. | Completed |
