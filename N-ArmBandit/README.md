@@ -7,11 +7,6 @@
 3. **Python 3 and above**
 
 
-## Overview
-
-This is the code for the how_to_win_slot_machines challenge by Siraj [here](https://www.youtube.com/watch?v=AIeWLTUYLZQ).
-
-
 # Usage
 ```
 python3 main.py
@@ -33,9 +28,4 @@ python3 main.py
 | ------ | --------------------------------------------------------- | ---------------------------------------------------- |
 |1.      |Blog post on "Simple Reinforcement Learning in Tensorflow: Part 1 - Two-armed Bandit" by Arthur Juliani | https://medium.com/@awjuliani/super-simple-reinforcement-learning-tutorial-part-1-fd544fab149 |
 |2.      |  Blog on "Multi-Armed Bandits" by Cameron Davidson-Pilon  | https://dataorigami.net/blogs/napkin-folding/79031811-multi-armed-bandits |
-
-
-# Credits
-
-Credits to [awjuliani](https://github.com/awjuliani) for the base code and Siraj for the challenge idea.
 
