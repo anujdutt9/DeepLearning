@@ -28,3 +28,4 @@ All code is written in Python 3 using PyCharm IDE.
 |3.      | "Perceptual Losses for Real-Time Style Transfer and Super-Resolution" by Justin Johnson|https://arxiv.org/pdf/1603.08155.pdf|
 |4.      | "Incorporating Long-Range Consistency in CNN-Based Texture Generation" by Guillaume Berger & Roland Memisevic|https://arxiv.org/pdf/1606.01286.pdf|
 |5.      |Convolutional neural networks for artistic style transfer by Harish Narayanan|https://harishnarayanan.org/writing/artistic-style-transfer/|
+|6.      |       Siraj Raval's Deep Learning Nanodegree on Udacity   |   https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101 |
