@@ -28,4 +28,5 @@ python3 main.py
 | ------ | --------------------------------------------------------- | ---------------------------------------------------- |
 |1.      |Blog post on "Simple Reinforcement Learning in Tensorflow: Part 1 - Two-armed Bandit" by Arthur Juliani | https://medium.com/@awjuliani/super-simple-reinforcement-learning-tutorial-part-1-fd544fab149 |
 |2.      |  Blog on "Multi-Armed Bandits" by Cameron Davidson-Pilon  | https://dataorigami.net/blogs/napkin-folding/79031811-multi-armed-bandits |
+|3.      |       Siraj Raval's Deep Learning Nanodegree on Udacity   |   https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101 |
 
