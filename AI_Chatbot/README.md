@@ -21,4 +21,4 @@
 |2.      | Blog post on "Attention and Memmory in Deep Learning and NLP" by WILDML  | http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/ |
 |3.      |         Keras "babi_memnn" code for Training Network      |  https://github.com/fchollet/keras/blob/master/examples/babi_memnn.py  |
 |4.      | Training Dataset "bAbI-tasks-v1.2" by Facebook AI Research |           https://research.fb.com/downloads/babi/   |
-|5.      |       Siraj Raval's Deep Learning Nanodegree on Udacity   |   https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101 |
+
