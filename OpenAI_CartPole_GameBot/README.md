@@ -19,5 +19,5 @@
 | ------ | --------------------------------------------------------- | ---------------------------------------------------- |
 |1.      |                            OpenAI Gym                     |                  https://gym.openai.com/envs         |
 |2.      |    Kevin Frans's Blog on "Simple reinforcement learning methods to learn CartPole"   |http://kvfrans.com/simple-algoritms-for-solving-cartpole/ |
-|3.      |       Siraj Raval's Deep Learning Nanodegree on Udacity   |   https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101 |
+
 
