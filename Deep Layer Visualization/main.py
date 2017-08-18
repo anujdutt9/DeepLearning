@@ -40,7 +40,7 @@ def convolutionalNeuralNetwork():
     # Last Layer of CNN: Fully Connected Layer
     output_layer = slim.fully_connected(slim.flatten(hidden_3),num_outputs=10,activation_fn=tf.nn.softmax)
 
-    return hidden_1,hidden_2,hidden_3,output_layer
+    return hidden_1,hidden_2,hidden_3,pool_3,output_layer
 
 
 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     y = tf.placeholder(tf.float32, shape=[None, 10], name='Label')
     probb = tf.placeholder('float')
 
-    hidden_1, hidden_2, hidden_3, output_layer = convolutionalNeuralNetwork()
+    hidden_1, hidden_2, hidden_3, pool_3, output_layer = convolutionalNeuralNetwork()
 
     # Cross Entropy
     cross_entropy = -tf.reduce_sum(y * tf.log(output_layer))
@@ -108,15 +108,15 @@ if __name__ == '__main__':
     print('Test Accuracy: ',testAccuracy)
 
     # Plot the Input Test Image
-    n = np.random.randint(0,9,1)
-    imageToUse = data.test.images[n]
+    # n = np.random.randint(0,9,1)
+    imageToUse = data.test.images[0]
     plt.imshow(np.reshape(imageToUse, [28, 28]), interpolation="nearest", cmap="gray")
     plt.title('Input Test Image')
     plt.show()
 
 
     # Plot the Activations at each CNN Layer
-    layers = [hidden_1,hidden_2,hidden_3]
+    layers = [hidden_1,hidden_2,hidden_3,pool_3]
 
     # Plot out the Layers
     for layer in layers:
