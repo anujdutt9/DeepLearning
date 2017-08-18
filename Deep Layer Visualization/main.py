@@ -108,8 +108,8 @@ if __name__ == '__main__':
     print('Test Accuracy: ',testAccuracy)
 
     # Plot the Input Test Image
-    # n = np.random.randint(0,9,1)
-    imageToUse = data.test.images[0]
+    n = np.random.randint(0,9,1)
+    imageToUse = data.test.images[n]
     plt.imshow(np.reshape(imageToUse, [28, 28]), interpolation="nearest", cmap="gray")
     plt.title('Input Test Image')
     plt.show()
