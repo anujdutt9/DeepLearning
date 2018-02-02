@@ -6,6 +6,29 @@
 2. **Numpy**
 3. **Scipy**
 
+
+# Outputs:
+
+1. **Gaussian Input**
+
+![Output a1](GaussianInput.png?raw=true "Output a1")
+
+2. **Initial Decision Boundary**
+
+![Output a1](InitialDecisionBoundary.png?raw=true "Output a1")
+
+3. **Loss Function**
+
+![Output a1](LossFunction.png?raw=true "Output a1")
+
+4. **Training Loss**
+
+![Output a1](TrainingLoss.png?raw=true "Output a1")
+
+
+
+
+
 # Resources
 
 | S.No.  |                       Papers / Blogs / Authors            |                        Paper Links                   |
