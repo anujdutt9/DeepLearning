@@ -16,7 +16,7 @@
 
 ![Generator a1](Images/generator.png?raw=true "Generator a1")
 
-**b) Discriminator:**
+**b) Discriminator Architecture:**
 
 ![Discriminator a2](Images/discriminator.png?raw=true "Discriminator a2")
 
