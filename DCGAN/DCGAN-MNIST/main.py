@@ -11,8 +11,6 @@ from keras.layers import Conv2DTranspose
 from keras.layers import Conv2D, LeakyReLU
 # Use this to pass an element-wise TensorFlow/Theano/CNTK function as an activation
 import keras.backend as k
-# Train Test Split
-from sklearn.model_selection import train_test_split
 # Import Helper Functions
 from helper_functions import *
 
@@ -236,7 +234,7 @@ if __name__ == '__main()__':
                 generator_momentum=0.9,
                 discriminator_lr=0.001,
                 discriminator_momentum=0.9,
-                leakyAlpha=0.01,
+                leakyAlpha=0.2,
                 epochs=100,
                 batch_size=128,
                 eval_size=16,
