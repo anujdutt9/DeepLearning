@@ -6,8 +6,10 @@
 2. **Numpy**
 3. **Matplotlib**
 
-| S.No. |                   Aim                         |                         About                        |        Status        |
-| ----- | --------------------------------------------- | ---------------------------------------------------- | -------------------- |
-|  1.   | DCGAN on MNIST Dataset.                       | Use DCGAN to generate new Handwritten digits.        | - [ ] Completed      |
-|  2.   | DCGAN on CIFAR-10 Dataset.                    | Use DCGAN to generate new images using CIFAR dataset.| - [ ] Ongoing        |
-|  3.   | DCGAN for Generating Celebrity Faces.         | Use DCGAN to generate new faces using existing faces.| - [ ] Ongoing        |
+
+
+| S.No. |                   Aim                  |                         About                        |     Status      |
+| ----- | ---------------------------------------| ---------------------------------------------------- | --------------- |
+|  1.   | DCGAN on MNIST Dataset.                | Use DCGAN to generate new Handwritten digits.        |    Completed    |
+|  2.   | DCGAN on CIFAR-10 Dataset.             | Use DCGAN to generate new images using CIFAR dataset.|    Ongoing      |
+|  3.   | DCGAN for Generating Celebrity Faces.  | Use DCGAN to generate new faces using existing faces.|    Ongoing      |
