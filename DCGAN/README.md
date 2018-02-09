@@ -1,5 +1,5 @@
 # Deep Convolutional Generative Adversarial Networks
-***This repository contains the code for Deep Convolutional Generative Adversarial Network applied on MNIST, CIFAR-10 and faces dataset using Python 3 and Keras.***
+***This repository contains the code for Deep Convolutional Generative Adversarial Network applied on MNIST, CIFAR-10 and Celebrity Faces dataset using Python 3 and Keras.***
 
 # Requirements
 1. **Keras**
