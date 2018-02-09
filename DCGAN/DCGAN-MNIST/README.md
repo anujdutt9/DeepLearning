@@ -55,3 +55,9 @@ or
 ```
 python main.py
 ```
+
+# Result
+
+The DCGAN Model after training for 100 epochs gave the following output generated image:
+
+![Output a4](Images/finalOutput.png?raw=true "Output a4")
