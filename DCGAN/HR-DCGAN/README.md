@@ -1,6 +1,6 @@
-# DCGAN for MNIST
+# High Resolution DCGAN [HR-DCGAN] for MNIST
 
-***This repository contains the code for implementation of DCGAN paper using MNIST Dataset.***
+***This repository contains the code for implementation of HR-DCGAN paper using MNIST Dataset.***
 
 # Requirements
 
@@ -10,19 +10,19 @@
 
 **3. Numpy [+mkl for Windows]**
 
-# Parts of DCGAN
+# Parts of HR-DCGAN
 
 **a) Generator Architecture:**
 
-![Generator a1](Images/generator.png?raw=true "Generator a1")
-
 **b) Discriminator Architecture:**
 
-![Discriminator a2](Images/discriminator.png?raw=true "Discriminator a2")
+**c)  HR-DCGAN Architecture:**
 
-**c) DCGAN Architecture:**
+# Difference between DCGAN and HR-DCGAN
 
-![DCGAN a3](Images/complete_dcgan.png?raw=true "DCGAN a3")
+**1.** HR-DCGAN uses **Selu** Activation layers with **Batch Normalization** as compared to **ReLU** in case of DCGAN in both Generator and Discriminator.
+
+**2.** HR-DCGAN paper suggests that increasing the batch size for the image produces better results as it provides the model with more data to learn from.
 
 # Usage
 
@@ -32,14 +32,14 @@
 git clone https://github.com/anujdutt9/DeepLearning.git
 ```
 
-and go inside the DCGAN directory.
+and go inside the HR-DCGAN directory.
 
 **2.** Go inside the DCGAN-MNIST directory and run the code using:
 
 **a) Jupyter Notebook**
 
 ```
-jupyter notebook DCGAN-MNIST.ipynb
+jupyter notebook HR-DCGAN-MNIST.ipynb
 ````
 
 **b) Python Files**
@@ -58,6 +58,4 @@ python main.py
 
 # Result
 
-The DCGAN Model after training for 100 epochs gave the following output generated image:
-
-![Output a4](Images/finalOutput.png?raw=true "Output a4")
+***Coming Soon !!!***
