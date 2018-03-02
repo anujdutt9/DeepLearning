@@ -3,7 +3,13 @@
 
 All code is written in Python 3 using PyCharm IDE.
 
+# Requirements
 
+**1. Python3.5 +**
+
+**2. Numpy [+mkl for Windows]**
+
+**3. Matplotlib**
 
 |S.No.|                  Project Name                  |                  About                       |     Status       |
 | --- | ---------------------------------------------- | -------------------------------------------- | ---------------- |
